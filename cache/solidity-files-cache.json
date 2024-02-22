@@ -1,0 +1,2271 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/Users/sandeepkumar/Downloads/SnipperBotKB/contracts/.deps/npm/@openzeppelin/contracts/token/ERC20/IERC20.sol": {
+      "lastModificationDate": 1696353907987,
+      "contentHash": "df36f7051335cd1e748b1b6463b7fdd3",
+      "sourceName": "contracts/.deps/npm/@openzeppelin/contracts/token/ERC20/IERC20.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC20"
+      ]
+    },
+    "/Users/sandeepkumar/Downloads/SnipperBotKB/contracts/.deps/npm/@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol": {
+      "lastModificationDate": 1696353907987,
+      "contentHash": "db24b956904575cc79d02867ec03263c",
+      "sourceName": "contracts/.deps/npm/@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../utils/ContextUpgradeable.sol",
+        "../proxy/utils/Initializable.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "OwnableUpgradeable"
+      ]
+    },
+    "/Users/sandeepkumar/Downloads/SnipperBotKB/contracts/.deps/npm/@openzeppelin/contracts-upgradeable/utils/ContextUpgradeable.sol": {
+      "lastModificationDate": 1696353907987,
+      "contentHash": "6200b84950eb05b4a92a39fd1d6e0f9b",
+      "sourceName": "contracts/.deps/npm/@openzeppelin/contracts-upgradeable/utils/ContextUpgradeable.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../proxy/utils/Initializable.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ContextUpgradeable"
+      ]
+    },
+    "/Users/sandeepkumar/Downloads/SnipperBotKB/contracts/.deps/npm/@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol": {
+      "lastModificationDate": 1696353907987,
+      "contentHash": "b0970a564d121abf9adfff8d1a01eb16",
+      "sourceName": "contracts/.deps/npm/@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../utils/AddressUpgradeable.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.2"
+      ],
+      "artifacts": [
+        "Initializable"
+      ]
+    },
+    "/Users/sandeepkumar/Downloads/SnipperBotKB/contracts/.deps/npm/@openzeppelin/contracts-upgradeable/utils/AddressUpgradeable.sol": {
+      "lastModificationDate": 1696353907987,
+      "contentHash": "c30c805386fda8a42ff515da963d3a95",
+      "sourceName": "contracts/.deps/npm/@openzeppelin/contracts-upgradeable/utils/AddressUpgradeable.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.1"
+      ],
+      "artifacts": [
+        "AddressUpgradeable"
+      ]
+    },
+    "/Users/sandeepkumar/Downloads/SnipperBotKB/contracts/.deps/npm/uniswap-v2-contract/contracts/uniswap-v2-core/interfaces/IUniswapV2Factory.sol": {
+      "lastModificationDate": 1696353907988,
+      "contentHash": "ec39b5372f4f4d52101b4da561e2aee6",
+      "sourceName": "contracts/.deps/npm/uniswap-v2-contract/contracts/uniswap-v2-core/interfaces/IUniswapV2Factory.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.5.0"
+      ],
+      "artifacts": [
+        "IUniswapV2Factory"
+      ]
+    },
+    "/Users/sandeepkumar/Downloads/SnipperBotKB/contracts/.deps/npm/uniswap-v2-contract/contracts/uniswap-v2-core/interfaces/IUniswapV2Pair.sol": {
+      "lastModificationDate": 1696353907988,
+      "contentHash": "3fa31c3860f2b9585c3a98c64850829e",
+      "sourceName": "contracts/.deps/npm/uniswap-v2-contract/contracts/uniswap-v2-core/interfaces/IUniswapV2Pair.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.5.0"
+      ],
+      "artifacts": [
+        "IUniswapV2Pair"
+      ]
+    },
+    "/Users/sandeepkumar/Downloads/SnipperBotKB/contracts/.deps/npm/uniswap-v2-contract/contracts/uniswap-v2-periphery/interfaces/IUniswapV2Router01.sol": {
+      "lastModificationDate": 1696353907988,
+      "contentHash": "95d8729b2c698dc663322167b3c085fe",
+      "sourceName": "contracts/.deps/npm/uniswap-v2-contract/contracts/uniswap-v2-periphery/interfaces/IUniswapV2Router01.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.2"
+      ],
+      "artifacts": [
+        "IUniswapV2Router01"
+      ]
+    },
+    "/Users/sandeepkumar/Downloads/SnipperBotKB/contracts/.deps/npm/uniswap-v2-contract/contracts/uniswap-v2-periphery/interfaces/IUniswapV2Router02.sol": {
+      "lastModificationDate": 1696353907988,
+      "contentHash": "3fd36426274a5b35f7e702f87ba08a8e",
+      "sourceName": "contracts/.deps/npm/uniswap-v2-contract/contracts/uniswap-v2-periphery/interfaces/IUniswapV2Router02.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IUniswapV2Router01.sol"
+      ],
+      "versionPragmas": [
+        ">=0.6.2"
+      ],
+      "artifacts": [
+        "IUniswapV2Router02"
+      ]
+    },
+    "/Users/sandeepkumar/Downloads/SnipperBotKB/contracts/MockRouter/BuyContract.sol": {
+      "lastModificationDate": 1696353907988,
+      "contentHash": "6b5d35bce58cb82224080ecd489fb186",
+      "sourceName": "contracts/MockRouter/BuyContract.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "uniswap-v2-contract/contracts/uniswap-v2-periphery/interfaces/IUniswapV2Router02.sol",
+        "uniswap-v2-contract/contracts/uniswap-v2-core/interfaces/IUniswapV2Factory.sol",
+        "uniswap-v2-contract/contracts/uniswap-v2-core/interfaces/IUniswapV2Pair.sol",
+        "@openzeppelin/contracts/token/ERC20/IERC20.sol",
+        "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol",
+        "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.7"
+      ],
+      "artifacts": [
+        "BuyContract"
+      ]
+    },
+    "/Users/sandeepkumar/Downloads/SnipperBotKB/node_modules/@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol": {
+      "lastModificationDate": 1696428320027,
+      "contentHash": "db24b956904575cc79d02867ec03263c",
+      "sourceName": "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../utils/ContextUpgradeable.sol",
+        "../proxy/utils/Initializable.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "OwnableUpgradeable"
+      ]
+    },
+    "/Users/sandeepkumar/Downloads/SnipperBotKB/node_modules/uniswap-v2-contract/contracts/uniswap-v2-core/interfaces/IUniswapV2Factory.sol": {
+      "lastModificationDate": 1696428319315,
+      "contentHash": "ec39b5372f4f4d52101b4da561e2aee6",
+      "sourceName": "uniswap-v2-contract/contracts/uniswap-v2-core/interfaces/IUniswapV2Factory.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.5.0"
+      ],
+      "artifacts": [
+        "IUniswapV2Factory"
+      ]
+    },
+    "/Users/sandeepkumar/Downloads/SnipperBotKB/node_modules/uniswap-v2-contract/contracts/uniswap-v2-core/interfaces/IUniswapV2Pair.sol": {
+      "lastModificationDate": 1696428319318,
+      "contentHash": "3fa31c3860f2b9585c3a98c64850829e",
+      "sourceName": "uniswap-v2-contract/contracts/uniswap-v2-core/interfaces/IUniswapV2Pair.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.5.0"
+      ],
+      "artifacts": [
+        "IUniswapV2Pair"
+      ]
+    },
+    "/Users/sandeepkumar/Downloads/SnipperBotKB/node_modules/uniswap-v2-contract/contracts/uniswap-v2-periphery/interfaces/IUniswapV2Router02.sol": {
+      "lastModificationDate": 1696428319435,
+      "contentHash": "3fd36426274a5b35f7e702f87ba08a8e",
+      "sourceName": "uniswap-v2-contract/contracts/uniswap-v2-periphery/interfaces/IUniswapV2Router02.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IUniswapV2Router01.sol"
+      ],
+      "versionPragmas": [
+        ">=0.6.2"
+      ],
+      "artifacts": [
+        "IUniswapV2Router02"
+      ]
+    },
+    "/Users/sandeepkumar/Downloads/SnipperBotKB/node_modules/@openzeppelin/contracts/token/ERC20/IERC20.sol": {
+      "lastModificationDate": 1696428319978,
+      "contentHash": "df36f7051335cd1e748b1b6463b7fdd3",
+      "sourceName": "@openzeppelin/contracts/token/ERC20/IERC20.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC20"
+      ]
+    },
+    "/Users/sandeepkumar/Downloads/SnipperBotKB/node_modules/@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol": {
+      "lastModificationDate": 1696428320019,
+      "contentHash": "b0970a564d121abf9adfff8d1a01eb16",
+      "sourceName": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../utils/AddressUpgradeable.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.2"
+      ],
+      "artifacts": [
+        "Initializable"
+      ]
+    },
+    "/Users/sandeepkumar/Downloads/SnipperBotKB/node_modules/@openzeppelin/contracts-upgradeable/utils/ContextUpgradeable.sol": {
+      "lastModificationDate": 1696428319885,
+      "contentHash": "6200b84950eb05b4a92a39fd1d6e0f9b",
+      "sourceName": "@openzeppelin/contracts-upgradeable/utils/ContextUpgradeable.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../proxy/utils/Initializable.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ContextUpgradeable"
+      ]
+    },
+    "/Users/sandeepkumar/Downloads/SnipperBotKB/node_modules/@openzeppelin/contracts-upgradeable/utils/AddressUpgradeable.sol": {
+      "lastModificationDate": 1696428319878,
+      "contentHash": "c30c805386fda8a42ff515da963d3a95",
+      "sourceName": "@openzeppelin/contracts-upgradeable/utils/AddressUpgradeable.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.1"
+      ],
+      "artifacts": [
+        "AddressUpgradeable"
+      ]
+    },
+    "/Users/sandeepkumar/Downloads/SnipperBotKB/node_modules/uniswap-v2-contract/contracts/uniswap-v2-periphery/interfaces/IUniswapV2Router01.sol": {
+      "lastModificationDate": 1696428319432,
+      "contentHash": "95d8729b2c698dc663322167b3c085fe",
+      "sourceName": "uniswap-v2-contract/contracts/uniswap-v2-periphery/interfaces/IUniswapV2Router01.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.2"
+      ],
+      "artifacts": [
+        "IUniswapV2Router01"
+      ]
+    },
+    "/Users/sandeepkumar/Downloads/SnipperBotKB/node_modules/@openzeppelin/contracts/token/ERC20/extensions/IERC20Metadata.sol": {
+      "lastModificationDate": 1696428319980,
+      "contentHash": "909ab67fc5c25033fe6cd364f8c056f9",
+      "sourceName": "@openzeppelin/contracts/token/ERC20/extensions/IERC20Metadata.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../IERC20.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC20Metadata"
+      ]
+    },
+    "/Users/sandeepkumar/Downloads/SnipperBotKB/node_modules/@openzeppelin/contracts/token/ERC20/ERC20.sol": {
+      "lastModificationDate": 1696428319925,
+      "contentHash": "3ae5166c6827a9cf1a7a462d1632b464",
+      "sourceName": "@openzeppelin/contracts/token/ERC20/ERC20.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IERC20.sol",
+        "./extensions/IERC20Metadata.sol",
+        "../../utils/Context.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ERC20"
+      ]
+    },
+    "/Users/sandeepkumar/Downloads/SnipperBotKB/node_modules/@openzeppelin/contracts/utils/Context.sol": {
+      "lastModificationDate": 1696428319890,
+      "contentHash": "5f2c5c4b6af2dd4551027144797bc8be",
+      "sourceName": "@openzeppelin/contracts/utils/Context.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Context"
+      ]
+    },
+    "/Users/sandeepkumar/Downloads/SnipperBotKB/node_modules/@openzeppelin/contracts/access/Ownable.sol": {
+      "lastModificationDate": 1696428320025,
+      "contentHash": "5a20b2cad87ddb61c7a3a6af21289e28",
+      "sourceName": "@openzeppelin/contracts/access/Ownable.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../utils/Context.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Ownable"
+      ]
+    },
+    "/Users/sandeepkumar/Downloads/SnipperBotKB/contracts/MockRouter/DummyToken.sol": {
+      "lastModificationDate": 1696353907988,
+      "contentHash": "0a4f6fd1a26a5dda4c59acf1c9143071",
+      "sourceName": "contracts/MockRouter/DummyToken.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/token/ERC20/ERC20.sol",
+        "@openzeppelin/contracts/access/Ownable.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.9"
+      ],
+      "artifacts": [
+        "DummyToken"
+      ]
+    },
+    "/Users/sandeepkumar/Downloads/SnipperBotKB/contracts/MockRouter/test/tax_token.sol": {
+      "lastModificationDate": 1696353907988,
+      "contentHash": "3b928372bfb27cb9436a660b5a3b3b7c",
+      "sourceName": "contracts/MockRouter/test/tax_token.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/token/ERC20/ERC20.sol"
+      ],
+      "versionPragmas": [
+        ">=0.8.7"
+      ],
+      "artifacts": [
+        "tax_token"
+      ]
+    },
+    "/Users/sandeepkumar/Downloads/SnipperBotKB/contracts/MockRouter/UniswapV2ERC20.sol": {
+      "lastModificationDate": 1696353907988,
+      "contentHash": "9941ecd65b99cff26318849f63c025f9",
+      "sourceName": "contracts/MockRouter/UniswapV2ERC20.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./interfaces/IUniswapV2ERC20.sol",
+        "./libraries/SafeMath.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.7"
+      ],
+      "artifacts": [
+        "UniswapV2ERC20"
+      ]
+    },
+    "/Users/sandeepkumar/Downloads/SnipperBotKB/contracts/MockRouter/interfaces/IUniswapV2ERC20.sol": {
+      "lastModificationDate": 1696353907989,
+      "contentHash": "490cefa99230c097f2b2fd0cbdd34a2c",
+      "sourceName": "contracts/MockRouter/interfaces/IUniswapV2ERC20.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.7"
+      ],
+      "artifacts": [
+        "IUniswapV2ERC20"
+      ]
+    },
+    "/Users/sandeepkumar/Downloads/SnipperBotKB/contracts/MockRouter/libraries/SafeMath.sol": {
+      "lastModificationDate": 1696353907988,
+      "contentHash": "15aef4476861762e6e668ed7951f9eff",
+      "sourceName": "contracts/MockRouter/libraries/SafeMath.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.7"
+      ],
+      "artifacts": [
+        "SafeMath"
+      ]
+    },
+    "/Users/sandeepkumar/Downloads/SnipperBotKB/contracts/MockRouter/UniswapV2Pair.sol": {
+      "lastModificationDate": 1696353907989,
+      "contentHash": "f32899c477fc4562cc49f6afdef598ae",
+      "sourceName": "contracts/MockRouter/UniswapV2Pair.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./interfaces/IUniswapV2Pair.sol",
+        "./UniswapV2ERC20.sol",
+        "./libraries/Math.sol",
+        "./libraries/UQ112x112.sol",
+        "./interfaces/IERC20.sol",
+        "./interfaces/IUniswapV2Factory.sol",
+        "./interfaces/IUniswapV2Callee.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.7"
+      ],
+      "artifacts": [
+        "UniswapV2Pair"
+      ]
+    },
+    "/Users/sandeepkumar/Downloads/SnipperBotKB/contracts/MockRouter/interfaces/IUniswapV2Pair.sol": {
+      "lastModificationDate": 1696353907989,
+      "contentHash": "0c304e6f508255b3a3e7a44982266203",
+      "sourceName": "contracts/MockRouter/interfaces/IUniswapV2Pair.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.7"
+      ],
+      "artifacts": [
+        "IUniswapV2Pair"
+      ]
+    },
+    "/Users/sandeepkumar/Downloads/SnipperBotKB/contracts/MockRouter/libraries/UQ112x112.sol": {
+      "lastModificationDate": 1696353907988,
+      "contentHash": "5ea68d0c48db2a8b6c2095e47bdce064",
+      "sourceName": "contracts/MockRouter/libraries/UQ112x112.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.7"
+      ],
+      "artifacts": [
+        "UQ112x112"
+      ]
+    },
+    "/Users/sandeepkumar/Downloads/SnipperBotKB/contracts/MockRouter/interfaces/IERC20.sol": {
+      "lastModificationDate": 1696353907989,
+      "contentHash": "7842cef00425ef1cfc7e3c9ccbd8441e",
+      "sourceName": "contracts/MockRouter/interfaces/IERC20.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.7"
+      ],
+      "artifacts": [
+        "IERC20"
+      ]
+    },
+    "/Users/sandeepkumar/Downloads/SnipperBotKB/contracts/MockRouter/libraries/Math.sol": {
+      "lastModificationDate": 1696353907988,
+      "contentHash": "13a58afc0583d0dc1c43a7a14167ef9c",
+      "sourceName": "contracts/MockRouter/libraries/Math.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.7"
+      ],
+      "artifacts": [
+        "Math"
+      ]
+    },
+    "/Users/sandeepkumar/Downloads/SnipperBotKB/contracts/MockRouter/interfaces/IUniswapV2Factory.sol": {
+      "lastModificationDate": 1696353907989,
+      "contentHash": "0ced1a0298e84c7ac4435815b5b62753",
+      "sourceName": "contracts/MockRouter/interfaces/IUniswapV2Factory.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.7"
+      ],
+      "artifacts": [
+        "IUniswapV2Factory"
+      ]
+    },
+    "/Users/sandeepkumar/Downloads/SnipperBotKB/contracts/MockRouter/interfaces/IUniswapV2Callee.sol": {
+      "lastModificationDate": 1696353907989,
+      "contentHash": "af97be1d1cf906087367ec5c72d5ce83",
+      "sourceName": "contracts/MockRouter/interfaces/IUniswapV2Callee.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.7"
+      ],
+      "artifacts": [
+        "IUniswapV2Callee"
+      ]
+    },
+    "/Users/sandeepkumar/Downloads/SnipperBotKB/contracts/MockRouter/getInit.sol": {
+      "lastModificationDate": 1696353907988,
+      "contentHash": "d2cf4b3b3623869d3d24120d8a67d233",
+      "sourceName": "contracts/MockRouter/getInit.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./UniswapV2Pair.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.7"
+      ],
+      "artifacts": [
+        "CalHash"
+      ]
+    },
+    "/Users/sandeepkumar/Downloads/SnipperBotKB/contracts/MockRouter/libraries/UniswapV2Library.sol": {
+      "lastModificationDate": 1696353907988,
+      "contentHash": "3a9260fd2d599d61649e7b8b99b43653",
+      "sourceName": "contracts/MockRouter/libraries/UniswapV2Library.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../interfaces/IUniswapV2Pair.sol",
+        "../interfaces/IUniswapV2Factory.sol",
+        "./SafeMath.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.7"
+      ],
+      "artifacts": [
+        "UniswapV2Library"
+      ]
+    },
+    "/Users/sandeepkumar/Downloads/SnipperBotKB/contracts/MockRouter/test/ERC20.sol": {
+      "lastModificationDate": 1696353907988,
+      "contentHash": "27d29239c19d75cb58aecbbaf9557c72",
+      "sourceName": "contracts/MockRouter/test/ERC20.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../libraries/SafeMath.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.7"
+      ],
+      "artifacts": [
+        "ERC20"
+      ]
+    },
+    "/Users/sandeepkumar/Downloads/SnipperBotKB/contracts/MockRouter/test/DeflatingERC20.sol": {
+      "lastModificationDate": 1696353907988,
+      "contentHash": "85cd72a6adcfcd726dd6d3676df3f6c9",
+      "sourceName": "contracts/MockRouter/test/DeflatingERC20.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../libraries/SafeMath.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.7"
+      ],
+      "artifacts": [
+        "DeflatingERC20"
+      ]
+    },
+    "/Users/sandeepkumar/Downloads/SnipperBotKB/contracts/MockRouter/UniswapV2Router02.sol": {
+      "lastModificationDate": 1696353907988,
+      "contentHash": "cd360c6e42517c9dc3717d2fd4a5e0b1",
+      "sourceName": "contracts/MockRouter/UniswapV2Router02.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./interfaces/IUniswapV2Factory.sol",
+        "./lib/contracts/libraries/TransferHelper.sol",
+        "./interfaces/IUniswapV2Router02.sol",
+        "./libraries/UniswapV2Library.sol",
+        "./libraries/SafeMath.sol",
+        "./interfaces/IERC20.sol",
+        "./interfaces/IWETH.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.7"
+      ],
+      "artifacts": [
+        "UniswapV2Router02"
+      ]
+    },
+    "/Users/sandeepkumar/Downloads/SnipperBotKB/contracts/MockRouter/lib/contracts/libraries/TransferHelper.sol": {
+      "lastModificationDate": 1696353907989,
+      "contentHash": "ab7abbdf98cf686e35e44a2f33c33e52",
+      "sourceName": "contracts/MockRouter/lib/contracts/libraries/TransferHelper.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.7"
+      ],
+      "artifacts": [
+        "TransferHelper"
+      ]
+    },
+    "/Users/sandeepkumar/Downloads/SnipperBotKB/contracts/MockRouter/interfaces/IUniswapV2Router02.sol": {
+      "lastModificationDate": 1696353907989,
+      "contentHash": "260a131b7629d0991122320fad4c7b5c",
+      "sourceName": "contracts/MockRouter/interfaces/IUniswapV2Router02.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IUniswapV2Router01.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.7"
+      ],
+      "artifacts": [
+        "IUniswapV2Router02"
+      ]
+    },
+    "/Users/sandeepkumar/Downloads/SnipperBotKB/contracts/MockRouter/interfaces/IWETH.sol": {
+      "lastModificationDate": 1696353907989,
+      "contentHash": "af1a03c14f119c79e20329caccc69dc8",
+      "sourceName": "contracts/MockRouter/interfaces/IWETH.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.7"
+      ],
+      "artifacts": [
+        "IWETH"
+      ]
+    },
+    "/Users/sandeepkumar/Downloads/SnipperBotKB/contracts/MockRouter/interfaces/IUniswapV2Router01.sol": {
+      "lastModificationDate": 1696353907989,
+      "contentHash": "3e6af7f41331dbc9a17423f850aed4f7",
+      "sourceName": "contracts/MockRouter/interfaces/IUniswapV2Router01.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.7"
+      ],
+      "artifacts": [
+        "IUniswapV2Router01"
+      ]
+    },
+    "/Users/sandeepkumar/Downloads/SnipperBotKB/contracts/MockRouter/UniswapV2Router01.sol": {
+      "lastModificationDate": 1696353907988,
+      "contentHash": "cd01ebd852468409f59c363aa51e32b5",
+      "sourceName": "contracts/MockRouter/UniswapV2Router01.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./interfaces/IUniswapV2Factory.sol",
+        "./lib/contracts/libraries/TransferHelper.sol",
+        "./libraries/UniswapV2Library.sol",
+        "./interfaces/IUniswapV2Router01.sol",
+        "./interfaces/IERC20.sol",
+        "./interfaces/IWETH.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.7"
+      ],
+      "artifacts": [
+        "UniswapV2Router01"
+      ]
+    },
+    "/Users/sandeepkumar/Downloads/SnipperBotKB/contracts/MockRouter/UniswapV2Migrator.sol": {
+      "lastModificationDate": 1696353907988,
+      "contentHash": "c3b67d718dc324fd703a1ab634825b9b",
+      "sourceName": "contracts/MockRouter/UniswapV2Migrator.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./lib/contracts/libraries/TransferHelper.sol",
+        "./interfaces/IUniswapV2Migrator.sol",
+        "./interfaces/V1/IUniswapV1Factory.sol",
+        "./interfaces/V1/IUniswapV1Exchange.sol",
+        "./interfaces/IUniswapV2Router01.sol",
+        "./interfaces/IERC20.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.7"
+      ],
+      "artifacts": [
+        "UniswapV2Migrator"
+      ]
+    },
+    "/Users/sandeepkumar/Downloads/SnipperBotKB/contracts/MockRouter/interfaces/IUniswapV2Migrator.sol": {
+      "lastModificationDate": 1696353907989,
+      "contentHash": "017e4a94aa3bd43af5252c6cbed0073a",
+      "sourceName": "contracts/MockRouter/interfaces/IUniswapV2Migrator.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.7"
+      ],
+      "artifacts": [
+        "IUniswapV2Migrator"
+      ]
+    },
+    "/Users/sandeepkumar/Downloads/SnipperBotKB/contracts/MockRouter/interfaces/V1/IUniswapV1Factory.sol": {
+      "lastModificationDate": 1696353907989,
+      "contentHash": "b08a606aa2ff6a62fe57fe98357e2e4a",
+      "sourceName": "contracts/MockRouter/interfaces/V1/IUniswapV1Factory.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.7"
+      ],
+      "artifacts": [
+        "IUniswapV1Factory"
+      ]
+    },
+    "/Users/sandeepkumar/Downloads/SnipperBotKB/contracts/MockRouter/interfaces/V1/IUniswapV1Exchange.sol": {
+      "lastModificationDate": 1696353907989,
+      "contentHash": "687d950bf1021752d9eb56243db6abc1",
+      "sourceName": "contracts/MockRouter/interfaces/V1/IUniswapV1Exchange.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.7"
+      ],
+      "artifacts": [
+        "IUniswapV1Exchange"
+      ]
+    },
+    "/Users/sandeepkumar/Downloads/SnipperBotKB/contracts/MockRouter/test/RouterEventEmitter.sol": {
+      "lastModificationDate": 1696353907988,
+      "contentHash": "d7cda9d39dd20991a9359bef99af942f",
+      "sourceName": "contracts/MockRouter/test/RouterEventEmitter.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../interfaces/IUniswapV2Router01.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.7"
+      ],
+      "artifacts": [
+        "RouterEventEmitter"
+      ]
+    },
+    "/Users/sandeepkumar/Downloads/SnipperBotKB/contracts/MockRouter/libraries/UniswapV2OracleLibrary.sol": {
+      "lastModificationDate": 1696353907988,
+      "contentHash": "a2712b1a759a019993205067311e9827",
+      "sourceName": "contracts/MockRouter/libraries/UniswapV2OracleLibrary.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../interfaces/IUniswapV2Pair.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.7"
+      ],
+      "artifacts": [
+        "UniswapV2OracleLibrary"
+      ]
+    },
+    "/Users/sandeepkumar/Downloads/SnipperBotKB/contracts/MockRouter/UniswapV2Factory.sol": {
+      "lastModificationDate": 1696353907988,
+      "contentHash": "d214804673fb1f6af715de32f2732244",
+      "sourceName": "contracts/MockRouter/UniswapV2Factory.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./interfaces/IUniswapV2Factory.sol",
+        "./UniswapV2Pair.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.7"
+      ],
+      "artifacts": [
+        "UniswapV2Factory"
+      ]
+    },
+    "/Users/sandeepkumar/Downloads/SnipperBotKB/contracts/MockRouter/test/factory.sol": {
+      "lastModificationDate": 1696353907988,
+      "contentHash": "968809ae727c31ed56ec8765aeb255c8",
+      "sourceName": "contracts/MockRouter/test/factory.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../UniswapV2Factory.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.7"
+      ],
+      "artifacts": [
+        "factory"
+      ]
+    },
+    "/Users/sandeepkumar/Downloads/SnipperBotKB/contracts/MockRouter/interfaces/IERC20 copy.sol": {
+      "lastModificationDate": 1696353907989,
+      "contentHash": "be2b56489e6f06aad8ede8c211d2b2a1",
+      "sourceName": "contracts/MockRouter/interfaces/IERC20 copy.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.7"
+      ],
+      "artifacts": [
+        "IERC20"
+      ]
+    },
+    "/Users/sandeepkumar/Downloads/SnipperBotKB/contracts/MockRouter/lib/contracts/libraries/AddressStringUtil.sol": {
+      "lastModificationDate": 1696353907988,
+      "contentHash": "66ab41b036fa605f87aa696750d3cdc0",
+      "sourceName": "contracts/MockRouter/lib/contracts/libraries/AddressStringUtil.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.7"
+      ],
+      "artifacts": [
+        "AddressStringUtil"
+      ]
+    },
+    "/Users/sandeepkumar/Downloads/SnipperBotKB/contracts/MockRouter/lib/contracts/libraries/SafeERC20Namer.sol": {
+      "lastModificationDate": 1696353907988,
+      "contentHash": "66b06f1e1e99e1e41428ad8f0ce81099",
+      "sourceName": "contracts/MockRouter/lib/contracts/libraries/SafeERC20Namer.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./AddressStringUtil.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.7"
+      ],
+      "artifacts": [
+        "SafeERC20Namer"
+      ]
+    },
+    "/Users/sandeepkumar/Downloads/SnipperBotKB/contracts/MockRouter/lib/contracts/libraries/Babylonian.sol": {
+      "lastModificationDate": 1696353907989,
+      "contentHash": "dfdb709aea945aba700012f474d1db8c",
+      "sourceName": "contracts/MockRouter/lib/contracts/libraries/Babylonian.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.7"
+      ],
+      "artifacts": [
+        "Babylonian"
+      ]
+    },
+    "/Users/sandeepkumar/Downloads/SnipperBotKB/contracts/MockRouter/lib/contracts/libraries/BitMath.sol": {
+      "lastModificationDate": 1696353907988,
+      "contentHash": "0b8cc4d186c8656f491a284286cf12ae",
+      "sourceName": "contracts/MockRouter/lib/contracts/libraries/BitMath.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.7"
+      ],
+      "artifacts": [
+        "BitMath"
+      ]
+    },
+    "/Users/sandeepkumar/Downloads/SnipperBotKB/contracts/MockRouter/libraries/SafeMath copy.sol": {
+      "lastModificationDate": 1696353907988,
+      "contentHash": "15aef4476861762e6e668ed7951f9eff",
+      "sourceName": "contracts/MockRouter/libraries/SafeMath copy.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.7"
+      ],
+      "artifacts": [
+        "SafeMath"
+      ]
+    },
+    "/Users/sandeepkumar/Downloads/SnipperBotKB/contracts/MockRouter/test/WETH9.sol": {
+      "lastModificationDate": 1696353907988,
+      "contentHash": "de7283f9e32914929ed4441547ee7e03",
+      "sourceName": "contracts/MockRouter/test/WETH9.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/security/ReentrancyGuard.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.7"
+      ],
+      "artifacts": [
+        "WETH9"
+      ]
+    },
+    "/Users/sandeepkumar/Downloads/SnipperBotKB/node_modules/@openzeppelin/contracts/security/ReentrancyGuard.sol": {
+      "lastModificationDate": 1696428320029,
+      "contentHash": "1535f8c0c68463f8c1b5239f7584e71f",
+      "sourceName": "@openzeppelin/contracts/security/ReentrancyGuard.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ReentrancyGuard"
+      ]
+    },
+    "/Users/sandeepkumar/Downloads/SnipperBotKB/contracts/upgradability/TradixProxy.sol": {
+      "lastModificationDate": 1696353907988,
+      "contentHash": "1f4afa5491f12795e0522436a4217787",
+      "sourceName": "contracts/upgradability/TradixProxy.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.7"
+      ],
+      "artifacts": [
+        "TradixProxy"
+      ]
+    }
+  }
+}
